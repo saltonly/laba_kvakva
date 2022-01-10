@@ -13,7 +13,6 @@ class Program
         c = Convert.ToChar(Console.ReadLine());
         switch (c)
         {
-
             case 'a':
                 Console.WriteLine("Введите первое число");
                 a = Convert.ToInt32(Console.ReadLine()); break;
@@ -21,6 +20,8 @@ class Program
             case 'b':
                 Console.WriteLine("Введите второе число");
                 b = Convert.ToInt32(Console.ReadLine()); break;
+
+            case '+': rez = a + b; break;
 
         }
         Console.Write(rez);
