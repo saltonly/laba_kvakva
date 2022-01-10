@@ -23,6 +23,8 @@ class Program
 
             case '+': rez = a + b; break;
 
+            case '-': rez = a - b; break;
+
         }
         Console.Write(rez);
         Console.ReadKey();
