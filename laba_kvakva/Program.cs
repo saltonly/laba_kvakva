@@ -13,7 +13,9 @@ class Program
         c = Convert.ToChar(Console.ReadLine());
         switch (c)
         {
-            
+            case 'b':
+                Console.WriteLine("Введите второе число");
+                b = Convert.ToInt32(Console.ReadLine()); break;
         }
         Console.Write(rez);
         Console.ReadKey();
