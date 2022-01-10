@@ -13,7 +13,8 @@ class Program
         c = Convert.ToChar(Console.ReadLine());
         switch (c)
         {
-            
+            case '/': rez = a / b; break;
+            case 's': rez = 228; break;
         }
         Console.Write(rez);
         Console.ReadKey();
