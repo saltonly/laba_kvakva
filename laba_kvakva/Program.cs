@@ -10,7 +10,9 @@ class Program
         char c;
 
         Console.WriteLine("Введите первое и второе число, или выберите операцию: +, -, *, /");
+
         c = Convert.ToChar(Console.ReadLine());
+
         switch (c)
         {
             case 'a':
